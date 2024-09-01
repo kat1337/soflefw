@@ -25,11 +25,6 @@
             if-layers = <LOWER RAISE>;
             then-layer = <ADJUST>;
         };
-
-        emotes {
-            if-layers = <3 2>;
-            then-layer = <4>;
-        };
     };
 
     macros {
