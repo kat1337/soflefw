@@ -128,8 +128,8 @@
 
         emote {
             bindings = <
-&trans  &trans     &trans  &trans  &trans  &trans                    &yuriderp  &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans                    &yuriderp  &trans  &trans  &trans  &trans  &trans
 &trans  &amehappy  &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
                    &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans
