@@ -31,8 +31,15 @@
         amehappy: amehappy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp COLON &kp A &kp M &kp E &kp UNDER &kp S &kp M &kp I &kp L &kp E &kp RET>;
+            bindings = <&kp COLON &kp A &kp M &kp E &kp RET>;
             label = "AMEHAPPY";
+        };
+
+        yuriderp: yuriderp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp Y &kp U &kp R &kp I &kp D &kp RET>;
+            label = "YURIDERP";
         };
     };
 
@@ -121,11 +128,11 @@
 
         emote {
             bindings = <
-&trans  &trans     &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &amehappy  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans                    &yuriderp  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &amehappy  &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
+                   &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans
             >;
 
             label = "emotes";
