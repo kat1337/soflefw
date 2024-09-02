@@ -48,6 +48,13 @@
             bindings = <&kp COLON &kp T &kp E &kp N &kp M &kp TAB>;
             label = "TENMA";
         };
+
+        ninalul: ninalul {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp N &kp I &kp N &kp TAB>;
+            label = "NINALUL";
+        };
     };
 
     keymap {
@@ -138,7 +145,7 @@
 &trans  &trans     &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans  &trans  &trans
 &trans  &trans     &trans  &trans  &trans  &tenma                    &yuriderp  &trans  &trans  &trans  &trans  &trans
 &trans  &amehappy  &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans  &trans    &trans  &ninalul   &trans  &trans  &trans  &trans  &trans
                    &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans
             >;
 
