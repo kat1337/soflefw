@@ -118,7 +118,7 @@
 &trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                          &kp PG_UP  &trans          &kp UP_ARROW    &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                        &kp PG_DN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans            &kp APOS
 &trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &trans     &trans          &trans          &trans     &trans            &kp PRINTSCREEN
-                          &to 0         &trans        &trans        &trans        &trans    &trans  &trans     &trans          &trans          &trans
+                          &to 0         &trans        &trans        &trans        &trans    &trans  &trans     &trans          &trans          &tog 2
             >;
         };
 
