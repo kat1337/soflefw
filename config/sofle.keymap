@@ -142,11 +142,11 @@
 
         emote {
             bindings = <
-&trans  &trans     &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans  &trans  &tenma                    &yuriderp  &trans  &trans  &trans  &trans  &trans
-&trans  &amehappy  &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans  &trans  &trans  &trans    &trans  &ninalul   &trans  &trans  &trans  &trans  &trans
-                   &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans     &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &tenma                    &yuriderp  &trans  &trans  &trans     &trans  &trans
+&trans  &amehappy  &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans     &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans  &trans    &trans  &ninalul   &trans  &trans  &trans     &trans  &trans
+                   &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans  &trans  &kp RCTRL
             >;
 
             label = "emotes";
