@@ -142,11 +142,11 @@
 
         rpg {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp NUMBER_2    &trans          &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp F   &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp ENTER
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp Z   &kp X           &trans          &trans           &trans  &trans
-                &to 0   &trans  &trans  &trans  &trans    &trans  &trans  &trans          &kp LEFT_ALT    &kp LCTRL
+&trans  &trans  &trans  &trans  &trans     &trans                    &trans  &kp NUMBER_2    &trans          &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans                    &kp F   &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans                    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp ENTER
+&trans  &trans  &trans  &trans  &trans     &trans  &trans    &trans  &kp Z   &kp X           &trans          &trans           &trans  &trans
+                &to 0   &trans  &kp SPACE  &trans  &trans    &trans  &trans  &trans          &kp LEFT_ALT    &kp LCTRL
             >;
 
             label = "rpg";
